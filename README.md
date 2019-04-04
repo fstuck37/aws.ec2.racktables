@@ -13,7 +13,7 @@ module "racktables" {
   source        = "git::https://github.com/fstuck37/aws.ec2.racktables.git"
   vpc_id        = "vpc-19c8e7ad391d45af9"
   subnet        = ["subnet-1ab174338f1224aea"]
-  ami           = "ami-6d1c2007"
+  ami           = "ami-02eac2c0129f6376b"
   instance_prefix = "test37"
   private_key_file = "C:\\PrivKey.ppk"
   key_name    = "${aws_key_pair.racktables-key.key_name}"
